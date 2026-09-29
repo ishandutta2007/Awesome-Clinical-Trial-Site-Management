@@ -59,7 +59,7 @@ The table below presents commercial SaaS platforms for Clinical Trial Site Manag
 
 ## 🔓 Open-Source GitHub Projects
 
-The list below highlights top self-hostable open-source platforms and developer toolkits for clinical trial management, sorted by **GitHub Star Count** in descending order.
+The list below highlights top self-hostable open-source platforms and developer toolkits for clinical trial management, sorted by **GitHub Stars_Count** in descending order.
 
 - **[Google Cloud Healthcare Data Engine](https://github.com/GoogleCloudPlatform/healthcare)** [![Stars](https://img.shields.io/github/stars/GoogleCloudPlatform/healthcare?style=social&color=white)](https://github.com/GoogleCloudPlatform/healthcare/stargazers) 🌟
   Open-source reference architectures, FHIR tools, and data harmonization pipelines for clinical research data ingestion, interoperability, and site data integration.
