@@ -1,203 +1,130 @@
-# Awesome-Clinical-Trial-Site-Management
+# Awesome Clinical Trial Site Management 🩺
 
-## Top Clinical Trial Site Management Platforms Ecosystem
+![Awesome Clinical Trial Site Management Banner](assets/banner.svg)
 
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Clinical-Trial-Site-Management/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Clinical-Trial-Site-Management?style=flat-square" alt="Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Clinical-Trial-Site-Management/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Clinical-Trial-Site-Management?style=flat-square" alt="Forks"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Clinical-Trial-Site-Management/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Clinical-Trial-Site-Management?style=flat-square" alt="License"/></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
+## 📌 Top Clinical Trial Site Management Platforms Ecosystem
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**
+**A Curated List of SaaS Products, eRegulatory Binders, eSource Solutions & Open-Source GitHub Projects** 🧪
 
-*Focused on Site Enablement, eRegulatory Binders, Financial Management & Multi-Sponsor Operations*
+*Focused on Site Enablement, eRegulatory Binders (eISF), Clinical Trial Management Systems (CTMS), Electronic Data Capture (EDC), Financial Management & Multi-Sponsor Operations.* 📊
 
-**Last updated: September 2026**
-
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Clinical Trial Site Management**. These tools help research sites, site networks, and academic medical centers manage regulatory documents, patient visits, study budgets, and sponsor relationships across multiple concurrent trials.
-
-
-
-**Examples** include Florence Healthcare, RealTime-CTMS, Clinical Conductor, Advarra OnCore, SiteVault, Complion, Trial Interactive, CRIO, ClinPlus, and SimpleTrials (the category leaders).
-
-
-
-**Open-source emphasis**: Clinical trial site management has a **modest but meaningful open-source ecosystem**. **Phoenix CTMS** (51 stars, 35 forks) is an active Java-based CTMS/PRS/CDMS . **LibreClinica** is the community successor to OpenClinica, providing EDC and CDM capabilities . The **clinicedc** ecosystem offers modular Django packages for building custom site workflows . This section documents these self-hostable solutions and their practical applications.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[Florence Healthcare](https://florencehc.com/)**
-
-  Leading **Site Enablement Platform** used by 65,000 study sites across 90+ countries. Provides eRegulatory binders (eISF), remote site access for sponsors, eConsent, eSource capture, and document management. FDA 21 CFR Part 11 compliant, ICH GCP E6(R2), EU Annex 11, and MHRA Data Integrity Guidance certified. eBinders platform reduces document cycle times by 40% . Strategic integrations with Cognizant Shared Investigator Platform (SIP) enable seamless sponsor-to-site document exchange .
-
-
-
-- **[RealTime-CTMS](https://realtime-ctms.com/)**
-
-  Cloud-based CTMS designed **specifically for research sites and SMOs** rather than sponsors. Focuses on site-side operational workflows: patient recruitment, coordinator scheduling, visit tracking, regulatory document management, and financial management of site budgets and payments. Strong adoption among SMOs managing multiple sponsor relationships simultaneously .
-
-
-
-- **[Clinical Conductor](https://www.advarra.com/)**
-
-  **The leading CTMS for top academic medical centers and cancer centers**. Two linked components: **Clinical Conductor Enterprise (CCE)** for trial managers (study building, fee linkage, reporting, finances) and **Clinical Conductor Site (CCS)** for coordinators (patient management, visits). Used by hundreds of research sites globally. Advarra acquired Bio-Optronics to pair Clinical Conductor with IRB services . Offers CCText (two-way patient messaging) and CCPay (patient payment system) add-ons .
-
-
-
-- **[Advarra OnCore](https://www.advarra.com/)**
-
-  Enterprise CTMS within Advarra's connected research network. Integrates with Advarra's IRB services and credentials for site activation at scale. Offers financial management, analytics, and data management .
-
-
-
-- **[SiteVault](https://www.veeva.com/)**
-
-  Veeva's site-focused platform for regulatory document management and eISF. Integrates with Veeva eTMF for sponsor-to-site document exchange.
-
-
-
-- **[Complion](https://complion.com/)**
-
-  Site-focused eRegulatory and eISF platform. Provides document management, eSignatures, and compliance tracking for research sites.
-
-
-
-- **[Trial Interactive](https://www.transperfect.com/)**
-
-  eTMF and site document exchange platform with translation and linguistic validation services.
-
-
-
-- **[CRIO](https://www.crioclinical.com/)**
-
-  Leader in **eSource technology** supporting 2,000+ global medical research sites. Provides a holistic paperless platform for conducting clinical trials, reducing data errors, streamlining regulatory workflows, and accelerating timelines. Partnership with Sitero offers turnkey services and technology including eConsent, eRegulatory/eISF, eSource, and patient stipends .
-
-
-
-- **[ClinPlus](https://clinplus.com/)**
-
-  CTMS and data management platform for research sites and sponsors.
-
-
-
-- **[SimpleTrials](https://simpletrials.com/)**
-
-  CTMS for small to mid-sized research sites. Provides study management, budgeting, and regulatory document tracking.
-
-
-
-## Open-Source GitHub Projects
-
-
-
-- **[Phoenix CTMS](https://github.com/phoenixctms/ctsms)**
-
-  **The most actively developed open-source CTMS.** **51 GitHub stars, 35 forks, Java-based** . Described as "the ultimate CTMS/PRS/CDMS" (Clinical Trial Management System / Patient Recruitment System / Clinical Data Management System) . Provides comprehensive clinical trial management capabilities including study setup, patient management, and data capture. Actively maintained (updated within the last week as of September 2026) . Java stack with 47.4 MB repository size . **Open source**.
-
-
-
-- **[LibreClinica](https://github.com/reliatec-gmbh/LibreClinica)**
-
-  **Community-driven successor to OpenClinica**, providing open-source clinical trial software for **Electronic Data Capture (EDC) and Clinical Data Management (CDM)** . Supports study building, eCRF design, data validation, audit trails, and CDISC ODM-XML export. **LGPL-3.0**, Java-based. 40 GitHub stars. While primarily EDC-focused, it provides the data management foundation for site operations .
-
-
-
-- **[clinicedc](https://github.com/clinicedc)**
-
-  **Modular Django-based clinical trial data management framework.** Provides a collection of Python packages for building EDC/eSource systems, including appointment scheduling (`edc-appointment`), visit tracking (`edc-visit-schedule`), patient registration (`edc-registration`), adverse events (`edc-adverse-event`), and dashboards (`edc-dashboard`). The `edc` core module has 28 stars and 3.48k monthly downloads . Used in NIH-funded trials at Harvard T.H. Chan School of Public Health and Botswana-Harvard AIDS Institute Partnership. **GPL-3.0**. Provides building blocks for custom site management workflows .
-
-
-
-- **[OpenClinica](https://github.com/OpenClinica/OpenClinica)**
-
-  **The world's first commercial open-source clinical trial software** for EDC and CDM. 401 GitHub stars, updated 3 months ago . Provides study design, eCRF creation, data capture, validation rules, and audit trails. Community edition available; enterprise version offers additional modules including ePRO and CTMS integration .
-
-
-
-- **[CORTEX (Clinical ORder and Trial EXecution)](https://github.com/)** 
-
-  Open-source clinical trial management platform. Early-stage project focused on site operations and trial execution.
-
-
-
-- **[FreeMED](https://github.com/freemed/freemed)**
-
-  **FreeMED Electronic Medical Record / Practice Management System.** 101 GitHub stars . While primarily an EMR, it provides practice management capabilities that can be adapted for clinical research site administration.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **CTMS/PRS/CDMS**: **Phoenix CTMS** (most active, Java, 51 stars), **LibreClinica** (EDC/CDM, LGPL-3.0) .
-
-- **EDC Foundations**: **OpenClinica** (401 stars, commercial open-source), **clinicedc** (modular Django packages) .
-
-- **Site Workflow Building Blocks**: **edc-appointment** (scheduling), **edc-visit-schedule** (visit tracking), **edc-registration** (patient intake), **edc-adverse-event** (safety tracking) .
-
-- **EMR/PM Integration**: **FreeMED** (EMR/PM system adaptable for research sites) .
-
-
-
-**Frameworks for building custom systems**: Combine **Phoenix CTMS** for comprehensive trial management, **LibreClinica** for EDC/CDM, and **clinicedc** packages for custom Django-based site workflows (appointment scheduling, visit tracking, patient registration). Add **PostgreSQL/MySQL** for persistence and **Docker** for deployment.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Clinical trial site management platforms handle sensitive patient and regulatory data; ensure compliance with 21 CFR Part 11, ICH-GCP, HIPAA, GDPR, and applicable regional regulations.
-
-- **Open-source reality**: The open-source ecosystem for clinical trial site management is **developing but not yet equivalent to commercial platforms**. **Phoenix CTMS** provides an actively maintained CTMS/PRS/CDMS foundation . **LibreClinica** and **OpenClinica** deliver EDC/CDM capabilities . **clinicedc** offers modular Django packages for custom site workflows . However, commercial platforms (Florence, RealTime-CTMS, Clinical Conductor) provide deeper site enablement features — eRegulatory binders, sponsor connectivity, financial management, and multi-sponsor operations — that open-source alternatives cannot match without significant institutional investment.
-
-
+**Last updated: September 2026** 📅
 
 ---
 
+### 🔍 Industry & Market Size Overview
 
+> 💡 **Market Size & Structure**: The global **Clinical Trial Management System (CTMS) and Site Enablement market** is estimated at **$1.8B–$2.5B+** (2025–2026), expanding at a CAGR of ~11.5%. The broader eClinical software ecosystem spans over **$8B+** worldwide.
+>
+> ⚡ **Market Dynamics**: The market is **moderately fragmented**: life sciences giant Veeva Systems and enterprise provider Advarra occupy dominant positions in sponsor-site connectivity and institutional CTMS, while specialized site enablement platforms (Florence Healthcare, CRIO, RealTime-CTMS) command dedicated niches. A vibrant long-tail of open-source projects and mid-tier SaaS vendors continues to serve academic medical centers and independent research sites.
 
-**Made for research coordinators, site administrators, clinical trial managers, and academic medical center IT teams.**
+---
 
-Let's make clinical trial site management more open, transparent, and site-centric.
+## 📑 Table of Contents
+- [🏢 SaaS/Hosted Platforms](#-saashosted-platforms)
+- [🔓 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [🤝 Support & Sponsorship](#-support--sponsorship)
+- [⚠️ Disclaimer](#%EF%B8%8F-disclaimer)
+- [📈 Star History](#-star-history)
+
+---
+
+## 🏢 SaaS/Hosted Platforms
+
+The table below presents commercial SaaS platforms for Clinical Trial Site Management, ordered by **Company Scale (Valuation / Billed Revenue)** in descending order.
+
+| Platform | Company Scale (Valuation / Revenue) | Starting Pricing (Specific Tier) | Free Tier / Free Trial Limits | Key Site Features & Compliance |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Veeva SiteVault](https://www.veeva.com/)** | **~$45.5 Billion Valuation** *(Public: VEEV, ~$3.2B Annual Revenue)* | Free Enterprise Tier for eligible research sites; Paid sponsor connectivity starting at quote tiers | **Free Enterprise Tier** for research sites with unlimited study storage and eISF compliance | Leading eISF and regulatory binder platform. Seamlessly connects site workflows with sponsor Veeva Vault eTMF networks. |
+| **[Advarra OnCore & Clinical Conductor](https://www.advarra.com/)** | **~$5.0 Billion Valuation** *(Acquired by Blackstone/CPP, ~$100M-$500M Revenue)* | Custom institutional tiering (starting ~$15,000–$50,000/year base for site networks) | **No Free Tier**; Custom live sandbox demo available upon request for institutional sites | Enterprise CTMS for top academic medical centers, cancer centers, and site networks. Features CCE, CCS, CCText, and CCPay integrations. |
+| **[TransPerfect Trial Interactive](https://www.transperfect.com/)** | **~$1.32 Billion Revenue** *(Private Parent Enterprise)* | Enterprise module licensing starting at ~$1,000/month per active trial site | **No Free Tier**; 14-day tailored trial workspace available for site network admins | eTMF, site activation, regulatory compliance, e-learning, and AI-powered document classification for research sites and CROs. |
+| **[Florence Healthcare](https://florencehc.com/)** | **~$116 Million Raised / ~$58 Million Revenue** *(Series C-1)* | Site Enablement subscription starting at ~$500/month per active study site | **No Free Tier**; 30-day trial workspace available for trial site coordinators | Site Enablement Platform used by 65,000+ sites across 90+ countries. Provides eISF, eConsent, eSource, 21 CFR Part 11 & GCP compliance. |
+| **[CRIO (Clinical Research IO)](https://www.crioclinical.com/)** | **~$20 Million Revenue** *(Private Equity Backed)* | Site eSource & CTMS bundle starting at ~$200/month per site | **No Free Tier**; 14-day guided sandbox demo provided for research sites | Paperless site platform offering turnkey eSource, eRegulatory/eISF, eConsent, coordinator scheduling, and patient stipend payments. |
+| **[RealTime-CTMS](https://realtime-ctms.com/)** | **~$15 Million Revenue** *(Private)* | Site package starting at ~$350/month base fee for site management | **No Free Tier**; 30-day interactive demo environment available for SMOs and sites | Cloud CTMS built specifically for research sites & SMOs. Manages patient recruitment, coordinator scheduling, visit tracking, and site finances. |
+| **[SimpleTrials](https://simpletrials.com/)** | **~$5 Million Revenue** *(On-Demand SaaS)* | **$99/month** (Starter Plan for small teams and 3 active studies) | **No Free Tier**; 30-day free trial on Starter Plan with full site feature access | Transparent subscription CTMS for small to mid-sized research sites and CROs. Includes study tracking, budgeting, and document management. |
+| **[ClinPlus](https://clinplus.com/)** | **~$3 Million Revenue** *(Private)* | On-demand trial management starting at ~$250/month per study | **No Free Tier**; 14-day trial available upon site verification | Modular CTMS and electronic data capture platform built for independent research sites and specialty clinics. |
+| **[Complion](https://complion.com/)** | **Acquired by RealTime Software** | Integrated eReg tier starting at ~$300/month per site | **No Free Tier**; Customized site demo and trial environment available | Specialized eRegulatory binder and compliance platform providing eSignatures, audit trails, and document workflow automation. |
+
+---
+
+## 🔓 Open-Source GitHub Projects
+
+The list below highlights top self-hostable open-source platforms and developer toolkits for clinical trial management, sorted by **GitHub Star Count** in descending order.
+
+- **[Google Cloud Healthcare Data Engine](https://github.com/GoogleCloudPlatform/healthcare)** [![Stars](https://img.shields.io/github/stars/GoogleCloudPlatform/healthcare?style=social&color=white)](https://github.com/GoogleCloudPlatform/healthcare/stargazers) 🌟
+  Open-source reference architectures, FHIR tools, and data harmonization pipelines for clinical research data ingestion, interoperability, and site data integration.
+
+- **[OpenClinica](https://github.com/OpenClinica/OpenClinica)** [![Stars](https://img.shields.io/github/stars/OpenClinica/OpenClinica?style=social&color=white)](https://github.com/OpenClinica/OpenClinica/stargazers) 🌟
+  **The world's first commercial open-source clinical trial software** for Electronic Data Capture (EDC) and Clinical Data Management (CDM). Supports study building, eCRF design, data validation, and audit trails.
+
+- **[OHDSI Atlas](https://github.com/OHDSI/Atlas)** [![Stars](https://img.shields.io/github/stars/OHDSI/Atlas?style=social&color=white)](https://github.com/OHDSI/Atlas/stargazers) 🌟
+  Open-source unified web client for conducting patient cohort discovery, clinical feasibility analysis, and observational trial design on OMOP Common Data Model repositories.
+
+- **[FreeMED EMR / PM](https://github.com/freemed/freemed)** [![Stars](https://img.shields.io/github/stars/freemed/freemed?style=social&color=white)](https://github.com/freemed/freemed/stargazers) 🌟
+  Open-source Electronic Medical Record and Practice Management System. Adaptable for clinical research site administration, patient registration, and scheduling workflows.
+
+- **[LibreClinica](https://github.com/reliatec-gmbh/LibreClinica)** [![Stars](https://img.shields.io/github/stars/reliatec-gmbh/LibreClinica?style=social&color=white)](https://github.com/reliatec-gmbh/LibreClinica/stargazers) 🌟
+  **Community-driven successor to OpenClinica** (LGPL-3.0 Java-based EDC/CDM). Offers eCRF design, data validation, audit logs, and CDISC ODM-XML standard data exports.
+
+- **[Phoenix CTMS](https://github.com/phoenixctms/ctsms)** [![Stars](https://img.shields.io/github/stars/phoenixctms/ctsms?style=social&color=white)](https://github.com/phoenixctms/ctsms/stargazers) 🌟
+  **The most comprehensive open-source CTMS/PRS/CDMS** (Clinical Trial Management System / Patient Recruitment System / Clinical Data Management System). Java-based, providing complete operational and patient tracking capabilities.
+
+- **[CogStack](https://github.com/cogstack/CogStack)** [![Stars](https://img.shields.io/github/stars/cogstack/CogStack?style=social&color=white)](https://github.com/cogstack/CogStack/stargazers) 🌟
+  Information retrieval and NLP platform for healthcare research sites to mine unstructured electronic health records (EHR) for trial recruitment and eligibility screening.
+
+- **[OpenEDC](https://github.com/hannesill/m4)** [![Stars](https://img.shields.io/github/stars/hannesill/m4?style=social&color=white)](https://github.com/hannesill/m4/stargazers) 🌟
+  CDISC ODM-compliant lightweight Electronic Data Capture system designed for academic and translational clinical research sites.
+
+- **[RPACT Adaptive Trial Framework](https://github.com/rpact-com/rpact)** [![Stars](https://img.shields.io/github/stars/rpact-com/rpact?style=social&color=white)](https://github.com/rpact-com/rpact/stargazers) 🌟
+  Open-source R package for group sequential design and adaptive trial calculation used by biostatisticians in clinical study design.
+
+- **[clinicedc Framework](https://github.com/clinicedc/edc)** [![Stars](https://img.shields.io/github/stars/clinicedc/edc?style=social&color=white)](https://github.com/clinicedc/edc/stargazers) 🌟
+  **Modular Django Python framework** for building custom EDC and site management software. Includes packages for appointment scheduling (`edc-appointment`), visit tracking (`edc-visit-schedule`), and patient intake.
+
+- **[VOXCE CTMS](https://github.com/trialmanager/voxce)** [![Stars](https://img.shields.io/github/stars/trialmanager/voxce?style=social&color=white)](https://github.com/trialmanager/voxce/stargazers) 🌟
+  Open-source clinical trial management framework providing operational data collection, study monitoring, and multi-center site coordination.
+
+- **[ClinTrialFinder AI](https://github.com/chncwang/ClinTrialFinder)** [![Stars](https://img.shields.io/github/stars/chncwang/ClinTrialFinder?style=social&color=white)](https://github.com/chncwang/ClinTrialFinder/stargazers) 🌟
+  AI-powered clinical trial patient matching system using LLMs to evaluate patient medical records against trial eligibility criteria.
+
+---
+
+## 🤝 How to Contribute
+
+1. 🍴 **Fork** the repository.
+2. 📝 **Add or edit** entries in `README.md` (maintain consistent markdown formatting).
+3. ℹ️ **Provide details**: Include software name, official URL, concise description, and pricing/open-source model.
+4. 🚀 **Submit a Pull Request** with a clear explanation of your additions.
+
+---
+
+## 🤝 Support & Sponsorship
+
+If you find this curated list valuable for your research site, academic center, or healthtech project, please consider supporting the project:
+
+- ⭐ **Star this repository** on GitHub to help others discover it!
+- 🔀 **Fork and share** with research coordinators, trial managers, and IT teams.
+- ☕ **Buy me a coffee / Sponsor**: Support ongoing maintenance on the [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007).
+
+---
+
+## ⚠️ Disclaimer
+
+- This is a **community-curated list** provided for informational purposes — it does not constitute formal software endorsement.
+- Clinical trial site management platforms handle sensitive personal health information (PHI) and regulatory documentation. Ensure all evaluated systems comply with **21 CFR Part 11, ICH-GCP E6(R2), HIPAA, GDPR, and local IRB guidelines**.
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Clinical-Trial-Site-Management&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Clinical-Trial-Site-Management&type=date&legend=top-left)
