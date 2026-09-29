@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="50%" stop-color="#1e1b4b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+
+    <!-- Glowing Accent Gradient -->
+    <linearGradient id="accent-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6366f1"/>
+      <stop offset="50%" stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#ec4899"/>
+    </linearGradient>
+
+    <!-- Dynamic Wave Gradient -->
+    <linearGradient id="wave-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.3"/>
+      <stop offset="50%" stop-color="#8b5cf6" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#ec4899" stop-opacity="0.2"/>
+    </linearGradient>
+
+    <!-- Pulse Animation for Background Grid -->
+    <style>
+      @keyframes pulse-grid {
+        0%, 100% { opacity: 0.15; }
+        50% { opacity: 0.35; }
+      }
+      @keyframes float-wave {
+        0% { transform: translateY(0px) scaleY(1); }
+        50% { transform: translateY(-10px) scaleY(1.05); }
+        100% { transform: translateY(0px) scaleY(1); }
+      }
+      @keyframes rotate-ecg {
+        0% { stroke-dashoffset: 1000; }
+        100% { stroke-dashoffset: 0; }
+      }
+      .bg-grid { animation: pulse-grid 6s ease-in-out infinite; }
+      .wave-element { animation: float-wave 8s ease-in-out infinite; }
+      .ecg-line {
+        stroke-dasharray: 1000;
+        animation: rotate-ecg 4s linear infinite;
+      }
+    </style>
+  </defs>
+
+  <!-- Base Card Background -->
+  <rect width="1200" height="320" rx="16" fill="url(#bg-grad)"/>
+
+  <!-- Subtly Animated Background Grid -->
+  <g class="bg-grid" stroke="#ffffff" stroke-opacity="0.08" stroke-width="1">
+    <line x1="0" y1="40" x2="1200" y2="40"/>
+    <line x1="0" y1="80" x2="1200" y2="80"/>
+    <line x1="0" y1="120" x2="1200" y2="120"/>
+    <line x1="0" y1="160" x2="1200" y2="160"/>
+    <line x1="0" y1="200" x2="1200" y2="200"/>
+    <line x1="0" y1="240" x2="1200" y2="240"/>
+    <line x1="0" y1="280" x2="1200" y2="280"/>
+    
+    <line x1="100" y1="0" x2="100" y2="320"/>
+    <line x1="300" y1="0" x2="300" y2="320"/>
+    <line x1="500" y1="0" x2="500" y2="320"/>
+    <line x1="700" y1="0" x2="700" y2="320"/>
+    <line x1="900" y1="0" x2="900" y2="320"/>
+    <line x1="1100" y1="0" x2="1100" y2="320"/>
+  </g>
+
+  <!-- Dynamic Wave Element (Kept at Bottom Background) -->
+  <path class="wave-element" d="M 0 240 Q 300 180 600 250 T 1200 220 L 1200 320 L 0 320 Z" fill="url(#wave-grad)"/>
+
+  <!-- Animated Heartbeat/ECG Pulse Trace (Background Graphics) -->
+  <path class="ecg-line" d="M 50 260 L 250 260 L 270 230 L 290 290 L 310 200 L 330 280 L 350 260 L 1150 260" fill="none" stroke="url(#accent-grad)" stroke-width="3" stroke-linecap="round" opacity="0.4"/>
+
+  <!-- Top Accent Bar -->
+  <rect x="0" y="0" width="1200" height="6" rx="3" fill="url(#accent-grad)"/>
+
+  <!-- Foreground Main Content (Clear Contrast and Z-Index Foreground) -->
+  <g text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+    <!-- Icon / Badge -->
+    <g transform="translate(600, 75)">
+      <rect x="-80" y="-18" width="160" height="30" rx="15" fill="#312e81" stroke="#6366f1" stroke-width="1.5"/>
+      <text x="0" y="2" fill="#a5b4fc" font-size="13" font-weight="700" letter-spacing="1.5">CLINICAL TRIALS</text>
+    </g>
+
+    <!-- Main Title -->
+    <text x="600" y="145" fill="#ffffff" font-size="38" font-weight="800" letter-spacing="-0.5">
+      Awesome Clinical Trial Site Management
+    </text>
+
+    <!-- Subtitle -->
+    <text x="600" y="190" fill="#94a3b8" font-size="18" font-weight="400">
+      A Curated Ecosystem of Site Enablement Platforms, eRegulatory Binders &amp; Open-Source CTMS
+    </text>
+
+    <!-- Feature Tags -->
+    <g transform="translate(600, 235)">
+      <!-- Tag 1 -->
+      <rect x="-240" y="0" width="140" height="32" rx="16" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+      <text x="-170" y="20" fill="#cbd5e1" font-size="13" font-weight="600">🏥 Site Enablement</text>
+
+      <!-- Tag 2 -->
+      <rect x="-80" y="0" width="160" height="32" rx="16" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+      <text x="0" y="20" fill="#cbd5e1" font-size="13" font-weight="600">📁 eISF &amp; eRegulatory</text>
+
+      <!-- Tag 3 -->
+      <rect x="100" y="0" width="140" height="32" rx="16" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+      <text x="170" y="20" fill="#cbd5e1" font-size="13" font-weight="600">⚡ Open Source CTMS</text>
+    </g>
+  </g>
+</svg>
